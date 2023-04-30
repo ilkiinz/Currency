@@ -34,3 +34,31 @@ padding-top: 50px;
 height: 89px;
 width: 120px;
 }
+hr{
+    margin-top: 40px;
+}
+.first-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+}
+.main-text h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: brown;
+font-size: 25px;
+padding-top: 70px;
+justify-content: center;
+    display: flex;
+
+
+}
+.main-text p{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(23, 35, 46);
+    font-size: 32px;
+    margin-left: 86px;
+}
