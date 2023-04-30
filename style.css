@@ -16,15 +16,17 @@ margin-left: 85px;
 padding-top: 50px;
 }
 .text-head{
-    background-color: orange;
+    color: white;
+    background-color: rgb(117, 7, 190);
     font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
     padding-top: 35px;
     padding-left: 45px;
     padding-right: 45px;
     margin-left: 60px;
 }
 .text-head:hover{
-    background-color: aqua;
+    background-color: rgb(13, 250, 112);
     cursor: pointer;
     
 }
