@@ -5,49 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <title>Xaricdə.az</title>
+    <title>Valyuta.az</title>
 </head>
 <body>
- <header>
-    <div class="container">
-        <div class="head">
-           <div class="logo"><img src="education.svg" alt="logo"></div>
-           <div class="text-head"><h3>Bakalavr</h3></div>
-           <div class="text-head"><h3>Magistr</h3></div>
-           <div class="text-head"><h3>Təqaüdlər</h3></div>
-           <div class="text-head"><h3>İelts</h3></div>
-           <div class="text-head"><h3>Əlaqə</h3></div>
-        </div>
-    </div>
-</header>
-<hr>
+	
+	<div class="jumbotron">
 
-<nav>
-    <div class="main-text">
-        <h1>Xaricdə təhsil</h1>
-        <br><br><br><br>
-        <p>Ən vacib amil olan təhsilin yüksək keyfiyyətidir. Burada bunuda qeyd etməliyik ki,
-             Azərbaycanda da keyfiyyətli təhsil verən universitetlər az deyil. Bunlara misal olaraq ADA , Xəzər və s.
-              kimi özəl universitetlərdə
-               təhsil son dərəcə yüksək keyfiyyətli və müasir texnologiyalar ilə tədris olunur. Lakin bəzi
-                universitetlərdə texniki cəhətdən qane edici deyil. İşləməyən avadanlıqlar, tədrisin müasir texnologiya
-                 ilə təşkil olunmaması və s. səbəblərdən dolayı gənclər Azərbaycan universitetlərini deyildə, 
-                 xarici universitetləri seçirlər. Yerli universitetlərdən ən çox edilən şikayətlərdən biridə yaşlı 
-                 nəsil nümayəndəsi olan qiymət verməyən və yeniliyə açıq olmayan müəllimlərdir. Xarici 
-                 universitetlərdə müəllim tələbə münasibətlərində bu cür şikayətlərə rast gəlinmir. 
-                 Bakalavr təhsilini bitirib yerli universitetlərdəki vəziyyətlə tanış olduqdan sonra istər müasir
-                  texnologiyası və yüksək keyfiyyətli təhsili ilə, istərsədə yeniliyə açıq və savadlı pedaqoqları 
-            ilə tələbələrimiz xarici universitetləri
-             magistr təhsillərini davam etdirmək üçün daha çox seçirlər.</p>
-    </div>
-
-
-
-
-</nav>
+		<div class="container">
+			<div class="image">
+				<img src="logo.svg" alt="money">
+			</div>
+			<h2>Currency Calculator</h2>
+			<p class="lead">Convert the currency</p>
+			<form class="form-inline">
+				<div class="form-group mb-2">
+					<input type="number" class="form-control" id="amount" />
+				</div>
+				<br><br>
+				<div class="form-group mx-sm-3 mb-2">
+					<select class="form-control" id="currency-1" required>
+						<option>AZN</option>
+						<option>EUR</option>
+						<option>USD</option>
+					</select>
+				</div>
+				<br><br>
+				<div class="form-group mx-sm-3 mb-2">
+					<label>convert to</label>
+					<br><br>
+					<select class="form-control" id="currency-2" required>
+						<option>EUR</option>
+						<option>USD</option>
+						<option>AZN</option>
+					</select>
+				</div>
+				<br><br>
+				<button class="btn calculate-btn btn-primary mb-2">Show me the result!</button>
+			</form>
+			<div class="result">
+				<p>
+					<span class="given-amount"></span>
+					<span class="base-currency"></span>
+					<span class="final-result"></span>
+					<span class="second-currency"></span>
+				</p>
+			</div>
+		</div>
+	</div>
 <script src="./script.js"></script>
 </body>
 </html>

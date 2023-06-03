@@ -1,64 +1,47 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    user-select: none;
-    text-decoration: none;
+body{
+	background-color: rgb(204, 196, 204);
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.image{
+	display: flex;
+	flex-direction: row;
+	height: 115px;
+	padding-left: 275px;
 }
 .container{
-    display: flex;
-    flex-direction: row;
+	background-color: rgb(78, 201, 174);
+	 margin: auto;
+	 margin-top: 25px;
+	width: 50%;
+	border: 3px solid rgb(85, 105, 85);
+	border-radius: 12px;
+	text-align: center;
 }
-.head{
-display: flex;
-flex-direction: row;
-margin-left: 85px;
-padding-top: 50px;
-}
-.text-head{
-    color: white;
-    background-color: rgb(117, 7, 190);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
-    padding-top: 35px;
-    padding-left: 45px;
-    padding-right: 45px;
-    margin-left: 60px;
-}
-.text-head:hover{
-    background-color: rgb(13, 250, 112);
-    cursor: pointer;
-    
-}
-.logo img{
-height: 89px;
-width: 120px;
-}
-hr{
-    margin-top: 40px;
-}
-.first-page{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.main-text{
-    display: flex;
-    flex-direction: column;
-}
-.main-text h1{
-font-family: Georgia, 'Times New Roman', Times, serif;
-color: brown;
-font-size: 25px;
-padding-top: 70px;
-justify-content: center;
-    display: flex;
 
-
+h2{
+	color: cornsilk;
+	font-size: 42px;
 }
-.main-text p{
-    font-family: 'Roboto', sans-serif;
-    color: rgb(23, 35, 46);
-    font-size: 32px;
-    margin-left: 86px;
+
+p{
+	color: cornsilk;
+	font-size: 24px;
+}
+label{
+	color: cornsilk;
+	font-size: 36px;
+}
+select{
+	color: aliceblue;
+	background-color: rgb(29, 100, 85);
+}
+input{
+	background-color: rgb(222, 229, 231);
+	border-radius: 6px;
+}
+button{
+	background-color: deepskyblue;
+	border-radius: 16px;
 }
